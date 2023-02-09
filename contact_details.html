@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pim's Contact Details</title>
+</head>
+
+<body>
+    <h3>My Contact Details</h3>
+    <p>You can reach me at: <a href="mailto:p.holstvoogd@gmail.com">my e-mail.</a>
+        Or you could visit my <a href="https://www.linkedin.com/in/pimholstvoogd/" target="_blank">LinkedIn page</a> for
+        more informatie about me.
+    </p>
+    <p> Or you could contact me below!</p>
+</body>
+<hr>
+<h3>Contact me below:</h3>
+<table>
+    <form action="mailto:p.holstvoogd@gmail.com" method="post" enctype="text/plain">
+        <tr>
+            <td>
+                <label for="name">Your name: </label>
+            </td>
+            <td>
+                <input type="text" name="Name"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="e-mail">Your e-mail: </label>
+            </td>
+            <td>
+                <input type="email" name="Email"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="message">Leave your message: </label><br>
+            </td>
+            <td><br>
+                <textarea rows="10" cols="30" name="Message"></textarea><br>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit"></td>
+        </tr>
+    </form>
+</table>
+
+</html>
